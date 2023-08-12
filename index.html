@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplify - A Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="logo" height="50px" width="50px"><span>Simplify</span></li>
+            <li class="buttons"><a href="index.html">Home</a></li>
+            <li class="buttons"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h2>Best of My 2023 : </h2>
+            <div class="songcontainer">
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="0" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="1" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="2" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="3" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="4" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="5" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="6" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="7" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="8" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="9" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+                <div class="songitems">
+                    <img alt="1">
+                    <span class="songName">DARK SOULS III</span>
+                    <span class="play"><span class="timestamp"> <i id="10" class="fa-light fa-bolt fa-beat-fade songitemplay"></i></span></span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" value="0" max="100" min="0">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-2.5x fa-step-backward"></i>
+            <i class="fa-solid fa-2.5x fa-play" id="MasterPlay"></i>
+            <i id="next" class="fa-solid fa-2.5x fa-step-forward"></i>
+        </div>
+        <div class="songplay">
+            <span id="songnamemain">Premonition - Yuka Kitamura</span> <img src="playing.gif" alt="vu bars" width="40px" id="playing"> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f5b011ca3f.js" crossorigin="anonymous"></script>
+</body>
+</html>
